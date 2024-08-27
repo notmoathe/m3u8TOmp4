@@ -12,8 +12,9 @@ This batch script converts M3U8 streams to MP4 using FFmpeg.
 
 1. **Download FFmpeg** (if not installed):
    - Download from [FFmpeg Builds](https://www.gyan.dev/ffmpeg/builds/ffmpeg-release-full.7z).
-   - Extract and move the contents of the `bin` folder to `C:\ffmpeg\bin`.
-   - Add `C:\ffmpeg\bin` to your system's PATH.
+   - Extract the downloaded archive.
+   - Move the entire `bin` folder (with `ffmpeg.exe`, `ffplay.exe`, `ffprobe.exe` inside) to your main drive, for example, `C:\bin`.
+   - Add `C:\bin` to your system's PATH.
 
 2. **Run the Script**:
    - Double-click `convert-m3u8-to-mp4.bat`.
